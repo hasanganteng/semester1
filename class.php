@@ -1,14 +1,4 @@
 <?php
-function tentang_saya($a,$b)
-{
-    $nama= $a;
-    $umur= $b;
-   return "Hi, nama saya $nama dan umur saya $umur";
-}
-echo "Tentang saya :".tentang_saya("hasans","17")
-?>
-
-<?php
 //class
 class laptop{
      //property/atribut
@@ -28,4 +18,15 @@ class laptop{
 
      //isi dari class laptop
     }
+ //object
+$laptop_hasan = new laptop();
+
+echo $laptop_hasan->hidupkan_laptop();
+echo "<br>";
+echo $laptop_hasan->matikan_laptop();
+
 ?>
+
+
+
+
