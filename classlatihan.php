@@ -72,4 +72,4 @@ if ($_POST) {
     echo "Hasil ".$x." / ".$y." = ".$data->Bagi($x, $y)."<br /><br />";
   }
 }
-?>
+?>s
